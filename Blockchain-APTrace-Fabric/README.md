@@ -3,10 +3,7 @@
 ## 介绍
     
 基于区块链的农产品溯源系统，分为pc端，h5端，后台采用SpringBoot，前端Vue，
-区块链网络采用Fabric，一共分为六个组织节点，农户，原料厂商，生产厂商，物流厂商，零售商，消费者  
-
-若有疑问，可关注公众号获取联系方法，点击联系作者，消息回晚了别在意，都会回复的，感谢您的支持。    
-![输入图片说明](install-fabric-env/image.png)
+区块链网络采用Fabric，一共分为六个组织节点，农户，原料厂商，生产厂商，物流厂商，零售商，消费者 .
 
 ## 软件架构
 
@@ -58,71 +55,6 @@ fabric-ca，然后tag为latest([拉取docker镜像命令点击此处去复制](i
 自己使用开发者工具打开
     
 
-## **申明**
-本人对区块链也只是了解一点皮毛，还有自己也没从事区块链工作，为有需要的同学解答问题完全出于人道主义，那些加上我后就让我远程调试的，我有时间
-肯定会帮忙，但是请先自己思考后，去网上找答案后，实在解决不了，我才帮忙，不要一上来就我不会，帮我调一下，大家都很忙，彼此尊重一下，你连star都
-舍不得给一个，还要让别人花几个小时去给你搭建环境，这不合适吧。本系统完全是demo级的，供大家学习。  
 
-**开源不易，请给个star**。  
+
     
-## 界面
-区块链浏览器
-![区块链结构](https://images.gitee.com/uploads/images/2021/0510/100450_865a1f55_4775150.png "6.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/100501_6d258226_4775150.png "7.png")
-
-基础数据
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/235544_3c60f0e6_4775150.png "a.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/235556_7b27b3c8_4775150.png "b.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/235607_f16f58ac_4775150.png "c.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/235621_c25cd622_4775150.png "d.png")
-
-
-添加农作物
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/095409_1656ec9f_4775150.png "界面1.png")
-
-农作物链上详情
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/095812_c090b8eb_4775150.png "2.png")
-
-农作物种植过程记录
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/095938_b91c4a9e_4775150.png "3.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/100000_d3f09618_4775150.png "4.png")
-
-物流追踪（因本系统，这里忘记去做了，只是模拟了一下）
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/100223_1c37229e_4775150.png "5.png")
-
-司机运输定位（本系统采用PC端定位，实际上这是不行的，你想想，司机在开车过程中还要去打开浏览器进入系统去定位？这里只是模拟，让老师知道我要表达的意思，因为我也没钱去买设备来定位 :sweat:  :sweat: ）
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/101525_8ec61394_4775150.png "1.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/101537_479fa381_4775150.png "2.png")
-
-原料厂商质检报告上链
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/101838_07d8b55c_4775150.png "3.png")
-
-生产厂商部分截图
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104012_a3d0a8f3_4775150.png "1.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104029_3b281f09_4775150.png "2.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104040_db0dd517_4775150.png "QQ图片20210510103842.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104051_ded404ae_4775150.png "QQ图片20210510103846.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104059_b6383ed4_4775150.png "5.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104107_7bc0ed1e_4775150.png "6.png")
-
-
-零售商生成产品唯一溯源ID
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/104115_bad29fb0_4775150.png "7.png")
-
-pc溯源
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0707/152117_9beee42b_4775150.png "QQ图片20210707152056.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0707/152129_8e55e697_4775150.png "QQ图片20210707152102.png")
-![img.png](install-fabric-env/static/img.png)
-小程序端溯源
-
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/234302_29fe611b_4775150.png "7.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/234335_43fbec55_4775150.png "1.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/234347_e2572d95_4775150.png "3.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/234359_b5bac058_4775150.png "4.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/234413_33dd3e47_4775150.png "5.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0510/234428_bc064965_4775150.png "6.png")
-
-#### 参与贡献
-
-
-#### 特技
